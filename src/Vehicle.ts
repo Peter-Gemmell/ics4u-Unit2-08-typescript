@@ -21,11 +21,12 @@ class Vehicle {
 
   // status
   status(): void {
-    console.log(` 
-    → Color: ${this.color}
+    console.log(
+      `    → Color: ${this.color}
     → Max Speed: ${this.maxSpeed}
     → Speed: ${this.speed}
-    → Number of tires: ${this.numberTires}`)
+    → Number of tires: ${this.numberTires}`
+    )
   }
 
   // getter of color
